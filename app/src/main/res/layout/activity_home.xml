@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity"
-    android:background="@drawable/background_main">
+    >
 
     <androidx.cardview.widget.CardView
         android:id="@+id/javacv"
@@ -42,7 +42,7 @@
             android:layout_marginTop="100dp"
             android:text="Java"
             android:textAlignment="center"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -83,7 +83,7 @@
             android:layout_marginTop="100dp"
             android:text="C"
             android:textAlignment="center"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -124,7 +124,7 @@
             android:layout_marginTop="100dp"
             android:text="C++"
             android:textAlignment="center"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -165,7 +165,7 @@
             android:layout_marginTop="100dp"
             android:text="PHP"
             android:textAlignment="center"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -175,11 +175,11 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:background="@color/white"
         android:gravity="fill"
-        android:background="@color/PrimaryColor"
-        android:text="Exam Categories"
-        android:textColor="@color/white"
         android:paddingLeft="10dp"
+        android:text="Exam Categories"
+        android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -190,11 +190,11 @@
 
     <TextView
         android:id="@+id/txtmainbottom"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:background="@color/PrimaryColor"
+        android:layout_width="411dp"
+        android:layout_height="69dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="-64dp"></TextView>
+        tools:layout_editor_absoluteX="0dp"></TextView>
 
     <TextView
         android:id="@+id/txthome"
@@ -204,7 +204,7 @@
         android:textAlignment="center"
         android:textColor="#FBC02D"
         android:textStyle="bold"
-        app:drawableTopCompat="@drawable/ic_home1icon"
+        app:drawableTopCompat="@drawable/hmmom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.046"
@@ -221,7 +221,7 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textStyle="bold"
-        app:drawableTopCompat="@drawable/ic_accounticon"
+        app:drawableTopCompat="@drawable/pr"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.953"
@@ -239,10 +239,10 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textStyle="bold"
-        app:drawableTopCompat="@drawable/ic_result"
+        app:drawableTopCompat="@drawable/re"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintHorizontal_bias="0.835"
         app:layout_constraintStart_toStartOf="@+id/txtmainbottom"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.994"

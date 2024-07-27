@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PHPActivity"
-    android:background="@color/PrimaryColor">
+    android:background="@color/bg">
 
     <TextView
         android:id="@+id/txtphptitle"
@@ -14,7 +14,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:text="PHP"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="29dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +65,7 @@
             android:layout_gravity="center"
             android:text="Question"
             android:textAlignment="center"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="25dp"
             android:textStyle="bold"></TextView>
 

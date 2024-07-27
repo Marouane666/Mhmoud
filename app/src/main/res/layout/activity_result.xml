@@ -5,20 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ResultActivity"
-    android:background="@drawable/background_main"><![CDATA[
-
-    "
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:ignore="MissingConstraints" />
-
-
-
-    ]]>
+    >
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvtotalque"
@@ -46,7 +33,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="1dp"
             android:text="Total Questions"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold"
             tools:ignore="RtlCompat" />
@@ -60,7 +47,7 @@
             android:layout_marginTop="1dp"
             android:gravity="end"
             android:text="00"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold"
             tools:ignore="RtlCompat" />
@@ -69,11 +56,11 @@
 
     <TextView
         android:id="@+id/txtmainbottom"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:background="@color/PrimaryColor"
+        android:layout_width="421dp"
+        android:layout_height="72dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="-64dp"></TextView>
+        tools:layout_editor_absoluteX="-10dp"></TextView>
 
     <TextView
         android:id="@+id/txthome"
@@ -83,7 +70,7 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textStyle="bold"
-        app:drawableTopCompat="@drawable/ic_homeicon"
+        app:drawableTopCompat="@drawable/hmmom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.046"
@@ -100,7 +87,7 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textStyle="bold"
-        app:drawableTopCompat="@drawable/ic_accounticon"
+        app:drawableTopCompat="@drawable/pr"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.953"
@@ -118,10 +105,10 @@
         android:textAlignment="center"
         android:textColor="#FBC02D"
         android:textStyle="bold"
-        app:drawableTopCompat="@drawable/ic_result1"
+        app:drawableTopCompat="@drawable/re"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintHorizontal_bias="0.887"
         app:layout_constraintStart_toStartOf="@+id/txtmainbottom"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.994"
@@ -153,7 +140,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="1dp"
             android:text="Score"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold"
             tools:ignore="RtlCompat" />
@@ -167,7 +154,7 @@
             android:layout_marginTop="1dp"
             android:gravity="end"
             android:text="00"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold"
             tools:ignore="RtlCompat" />
@@ -200,7 +187,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="1dp"
             android:text="Correct Answers"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold"
             tools:ignore="RtlCompat" />
@@ -214,7 +201,7 @@
             android:layout_marginTop="1dp"
             android:gravity="end"
             android:text="00"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold"
             tools:ignore="RtlCompat" />
@@ -247,7 +234,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="1dp"
             android:text="Incorrect Answers"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold"
             tools:ignore="RtlCompat" />
@@ -261,7 +248,7 @@
             android:layout_marginTop="1dp"
             android:gravity="end"
             android:text="00"
-            android:textColor="@color/PrimaryColor"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:textStyle="bold"
             tools:ignore="RtlCompat" />
@@ -297,32 +284,17 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/txttitle2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="8dp"
-        android:text="Exam Name:"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txttitle1"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
         android:id="@+id/txttitle3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="8dp"
         android:text=""
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/txttitle2"
         app:layout_constraintTop_toBottomOf="@+id/txttitle1"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="189dp" />
 
     <TextView
         android:id="@+id/txttitle1"
@@ -339,14 +311,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="218dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_result" />
+        app:srcCompat="@drawable/score" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
